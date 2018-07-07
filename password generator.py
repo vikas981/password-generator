@@ -4,7 +4,7 @@ length=int(length)
 number=input("Number of Password?: ")
 number=int(number)
 chars="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890!@#$%&*(+=}?,;"
-for p in range(3):
+for p in range(number):
     password=''
     for c in range(length):
         password +=random.choice(chars)
